@@ -1,0 +1,75 @@
+/* Global css */
+* {
+  box-sizing: border-box;
+}
+.container {
+  padding: 0 10px;
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+}
+
+/*Sign up*/
+.parent {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent form {
+  padding: 20px;
+  box-shadow: 0px 2px 15px rgb(0, 0, 0, 10%);
+  width: 400px;
+}
+
+input {
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  margin-bottom: 8px;
+}
+
+input:focus {
+  border: 2px solid #86b7fe;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.register button {
+  outline: none;
+  border: none;
+  background-color: #86b7fe;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.register button:hover {
+  background-color: white;
+  border: 2px solid #86b7fe;
+  color: #86b7fe;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  margin-top: 0px;
+}
